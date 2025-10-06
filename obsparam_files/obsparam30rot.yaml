@@ -1,0 +1,22 @@
+filing:
+  outdir: "./results_data/"
+  outfile_name: '24h_30MHz_45deg'
+  output_format: 'uvh5'
+freq:
+  freq_array : [30.0000e+06]
+  channel_width: 100000.0
+sources:
+  filetype: "skyh5"
+  catalog: "skyh5_output/exp30.0MHz_sky_map_with_absorption.skyh5"
+telescope:
+  array_layout: "tel_config/L_array45.csv"
+  telescope_config_name: "tel_config/L_arr_config.yaml"
+time:
+  Ntimes: 510
+  integration_time: 60.0
+  start_time: 2460000.5666666664
+ordering:
+  conjugation_convention: ant1<ant2
+  blt_order: [time, baseline]
+#select:
+#  bls: '[(0,0), (1,1), (2,2)]'
