@@ -1,0 +1,5 @@
+beam_paths:
+    0 : !AnalyticBeam
+        class: ShortDipoleBeam
+telescope_location: (-20.0, 30.0, 294)
+telescope_name: RandomLocation
