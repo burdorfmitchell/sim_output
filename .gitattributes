@@ -6,7 +6,3 @@ uvh5_output/24h_3MHz_128_m20.uvh5 filter=lfs diff=lfs merge=lfs -text
 uvh5_output/24h_10MHz_128.uvh5 filter=lfs diff=lfs merge=lfs -text
 uvh5_output/24h_10MHz_128_m20.uvh5 filter=lfs diff=lfs merge=lfs -text
 uvh5_output/24h_1MHz_128.uvh5 filter=lfs diff=lfs merge=lfs -text
-uvh5_output/24h_30MHz_logper_m20.uvh5 filter=lfs diff=lfs merge=lfs -text
-uvh5_output/24h_30MHz_logperrev_m20.uvh5 filter=lfs diff=lfs merge=lfs -text
-uvh5_output/24h_30MHz_random_m20.uvh5 filter=lfs diff=lfs merge=lfs -text
-uvh5_output/24h_30MHz_triangle_m20.uvh5 filter=lfs diff=lfs merge=lfs -text
